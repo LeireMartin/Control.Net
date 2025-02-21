@@ -1,0 +1,48 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .agregar-tarea {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .agregar-tarea input {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  .agregar-tarea button {
+    padding: 8px 16px;
+    background-color: #4c8baf;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  .tarea button {
+    padding: 5px 10px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .estado-tareas {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  

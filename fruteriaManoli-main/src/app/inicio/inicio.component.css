@@ -1,0 +1,16 @@
+.inicio-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  text-align: center;
+  font-variant: small-caps;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 5px;
+  background-color: rgb(218, 102, 121);
+  color: whitesmoke;
+}
+h1{
+  font-size: 80px;
+}

@@ -1,0 +1,25 @@
+.navbar {
+  background-color:rgb(59, 146, 66);
+  padding: 1rem;
+  box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.1);
+  font-family: "Ubuntu", system-ui;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  
+ font-variant: small-caps;
+}
+
+.nav-links a.active {
+  background-color: #15b840;
+  color: white;
+}
